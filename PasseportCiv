@@ -1,0 +1,5 @@
+I tried to do this, but I did not succeed. Can you tell me exactly where I put this condition please? The license is "life_civ_passeport"
+
+//Passport 
+	li﻿fe_actions = life_actions + [player addAction["<t color='#00FF00'>Present the passport</t>",life_fnc_civPasseport,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
+  
